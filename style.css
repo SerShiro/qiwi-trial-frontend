@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right, #f9f9f9, #a8c0ff);
+}
+
+.parent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropdown {
+    border-radius: 5px;
+    font-size: 15px;
+    width: 45%;
+}
+
+#result {
+    margin-top: 15px;
+    border: 2px solid black;
+    width: 45%;
+    opacity: 0;
+    border-radius: 20px;
+    box-shadow: 6px 5px 3px rgba(0, 0, 0, 0.466);
+    background-color: #fff;
+}
+
+#resultTitle {
+    padding: 15px;
+    margin: 0;
+}
+
+#currentDate, #previousDate {
+    padding: 15px 0 0 15px;
+    margin: 0;
+
+}
+
+#previousDate {
+    padding-bottom: 15px;
+}
+
